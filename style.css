@@ -1,0 +1,103 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #111;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #111;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #0077cc; /* subtle accent hover */
+}
+
+/* Main content */
+main {
+  margin-top: 40px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+section p {
+  margin-bottom: 15px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 40px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #111;
+}
+
+footer a:hover {
+  color: #0077cc;
+}
+
+/* Accent divider for gallery visuals */
+.divider {
+  width: 100%;
+  height: 4px;
+  background-color: #0047ab; /* cobalt blue accent */
+  margin: 40px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    margin: 5px 10px 0 0;
+  }
+}
