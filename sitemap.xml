@@ -1,32 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
   <url>
-    <loc>https://www.atelierazul.com/index.html</loc>
-    <lastmod>2026-02-18</lastmod>
+    <loc>https://www.atelierazul.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://www.atelierazul.com/images/atelier_azul_cobalt_divider_fixed.png</image:loc>
-      <image:caption>Cobalt design element highlighting minimalist gallery website</image:caption>
-    </image:image>
   </url>
 
+  <!-- Artists page -->
   <url>
-    <loc>https://www.atelierazul.com/artists.html</loc>
-    <lastmod>2026-02-18</lastmod>
+    <loc>https://www.atelierazul.com/artists</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Artwork: Signal in Cobalt -->
+  <url>
+    <loc>https://www.atelierazul.com/artists#signal-in-cobalt</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.atelierazul.com/images/signalincobalt.png</image:loc>
-      <image:caption>Signal in Cobalt artwork by A Kova</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.atelierazul.com/images/AKova.jpg</image:loc>
-      <image:caption>Portrait of artist A Kova</image:caption>
-    </image:image>
   </url>
-</urlset>
 
+  <!-- Artwork: Cobalt Study 1 -->
+  <url>
+    <loc>https://www.atelierazul.com/#cobalt-study-1</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Artwork: Cobalt Interruption -->
+  <url>
+    <loc>https://www.atelierazul.com/#cobalt-interruption</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Artwork: Artwalker GIF -->
+  <url>
+    <loc>https://www.atelierazul.com/#artwalker-gif</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
